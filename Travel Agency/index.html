@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#home">
+                <div class="logo">
+                    <span class="material-icons-sharp">mode_of_travel</span>
+                    <h2>Travel</h2>
+                </div>
+            </a>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="search here...">
+                    <button type="submit"><span class="material-icons-sharp">
+                        search
+                        </span>
+                    </button>
+                </form>
+            </div>
+            <div class="options">
+                <span id="dark" class="material-icons-sharp">
+                    nightlight_round
+                </span>
+                <span id="light" class="material-icons-sharp">
+                    light_mode
+                </span>
+                <span id="logB" class="material-icons-sharp">
+                    person
+                </span>
+                <span id="menuButton" class="material-icons-sharp">
+                    menu
+                </span>
+                <span id="close" class="material-icons-sharp">
+                    close
+                </span>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#packages">Pacages</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="login">
+                <form>
+                    <p>Username</p>
+                    <input type="text" placeholder="entet yout name">
+                    <p>Password</p>
+                    <input type="password" placeholder="enter your password">
+                    <div class="check">
+                        <input type="checkbox" name="remember"> 
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <a type="submit">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="landing" id="home">
+        <div class="container">
+
+            <img src="./images/a1.png" data-aos="fade-down">
+
+            <div class="info" data-aos="fade-up">
+                <h1>Adventure Is Worthwhile</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus consectetur exercitationem molestias quam excepturi deleniti, sint officia. Quod laboriosam porro quas dicta, eum consectetur aliquam itaque eveniet ipsa aspernatur!</p>
+                <a href="">Explore Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking" id="booking" data-aos="zoom-in">
+        <div class="container">
+            <form >
+                <div class="location">
+                    <label for="location">Where to</label>
+                    <input type="text" name="location" placeholder="hawaii">
+                </div>
+
+                <div class="date1">
+                    <label for="date1">Arrivals</label>
+                    <input type="date" name="date1" >
+                </div>
+                
+                <div class="date2">
+                    <label for="date2">Leaving</label>
+                    <input type="date" name="date2" >
+                </div>
+                
+
+                <a type="submit">Book Now</a>
+            </form>
+        </div>
+    </section>
+
+
+    <section class="packages" id="packages">
+        <h1>Our <span> Packages</span></h1>
+        <div class="container">
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/paris2.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Paris</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/hawaii.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Hawaii</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/rome.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Rome</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/sydnay.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Sydnay</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/MADRID.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Madrid</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+            <div class="packet" data-aos="fade-up">
+                <div class="image">
+                    <img src="./images/bali.jpg" alt="">
+                    <p class="location"><span class="material-icons-sharp">
+                        location_on
+                        </span> Bali</p>
+                </div>
+    
+                <h3>290.99  <span>350.99</span></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo, eaque?</p>
+                <a href="">Book Now</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="services" id="services">
+        <h1>Our <span>Services</span></h1>
+        <div class="container">
+
+            <div class="service " data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        hotel
+                    </span>
+                    <h1>01</h1>
+                </div>
+                <h3>Affordable Hotels</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+            <div class="service" data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        local_airport
+                    </span>
+                    <h1>02</h1>
+                </div>
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+            <div class="service" data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        restaurant
+                    </span>
+                    <h1>03</h1>
+                </div>
+                <h3>Food and Drinks</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+            <div class="service" data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        public
+                        </span>
+                    <h1>04</h1>
+                </div>
+                <h3>Around the World</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+            <div class="service" data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        hiking
+                        </span>
+                    <h1>05</h1>
+                </div>
+                <h3>New Adventures</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+            <div class="service" data-aos="zoom-in">
+                <div class="head">
+                    <span class="material-icons-sharp">
+                        campaign
+                        </span>
+                    <h1>01</h1>
+                </div>
+                <h3>Safety Guide</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit velit provident placeat!</p>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <h1>Our <span>Pricing</span></h1>
+        <div class="container">
+            <div class="price" data-aos="zoom-in-up">
+                <h4>Standard Plane</h4>
+                <h2><small>$</small>30<small>/MO</small></h2>
+                <p>10 days</p>
+                <p>food And Drink</p>
+                <p>Safty Guide</p>
+                <p>Insurance</p>
+                <p>Luxury Hotel</p>
+                <a href="">Choose Plan</a>
+            </div>
+
+            <div class="price" data-aos="zoom-in-up">
+                <h4>Standard Plane</h4>
+                <h2><small>$</small>50<small>/MO</small></h2>
+                <p>20 days</p>
+                <p>food And Drink</p>
+                <p>Safty Guide</p>
+                <p>Insurance</p>
+                <p>Luxury Hotel</p>
+                <a href="">Choose Plan</a>
+            </div>
+
+            <div class="price" data-aos="zoom-in-up">
+                <h4>Standard Plane</h4>
+                <h2><small>$</small>90<small>/MO</small></h2>
+                <p>30 days</p>
+                <p>food And Drink</p>
+                <p>Safty Guide</p>
+                <p>Insurance</p>
+                <p>Luxury Hotel</p>
+                <a href="">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="review" id="review">
+        <h1>Client's <span>Review</span></h1>
+        <div class="container swiper" data-aos="zoom-in">
+
+            <div class="cards swiper-wrapper">
+
+                <div class="card swiper-slide">
+                    <div class="profil-area">
+                        <img src="./images/profil.jpg" alt="">
+                    </div>
+                    <h2>Johon Deo</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, voluptatibus iure! Reiciendis repudiandae mollitia ut, perferendis nostrum inventore laudantium nobis ea fugiat assumenda iusto aliquid nisi beatae temporibus molestias nulla sapiente velit! Ipsum quam optio aliquid excepturi atque, perspiciatis delectus similique iure temporibus consequuntur deserunt nihil iste qui incidunt. Modi?</p>
+                    
+                    <div class="stars">
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                    </div>
+                   
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="profil-area">
+                        <img src="./images/profile3.jpg" alt="">
+                    </div>
+                    <h2>Johon Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas libero eligendi possimus maxime tempore fugit soluta eaque incidunt deleniti sunt iure ex amet sint corporis, expedita vero labore eum.</p>
+                    
+                    <div class="stars">
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                    </div>
+                   
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="profil-area">
+                        <img src="./images/profile2.webp" alt="">
+                    </div>
+                    <h2>Johon Deo</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptas libero eligendi possimus maxime tempore fugit soluta eaque incidunt deleniti sunt iure ex amet sint corporis, expedita vero labore eum.</p>
+                    
+                    <div class="stars">
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                        <span class="material-icons-sharp">
+                            star
+                        </span>
+                    </div>
+                   
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1><span>Contact</span> Us</h1>
+        <div class="container">
+            <form action="" data-aos="zoom">
+                <div class="inputBox">
+                    <input type="text" placeholder="name" data-aos="fade-up">
+                    <input type="email" placeholder="email" data-aos="fade-up">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number" data-aos="fade-up">
+                    <input type="text" placeholder="subject" data-aos="fade-up">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="your massage" data-aos="fade-up"></textarea>
+                <a type="submit">Send massage</a>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="branches box">
+                <h3>Our Branches</h3>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> France
+                </p>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> Canada
+                </p>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> Germay
+                </p>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> Japan
+                </p>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> Russia
+                </p>
+            </div>
+
+            <div class="links box">
+                <h3>Quick Links</h3>
+                <a href="#home">
+                    <span class="material-icons-sharp">
+                    keyboard_arrow_right</span>
+                    Home
+                </a>
+                <a href="#packages">
+                    <span class="material-icons-sharp">
+                        keyboard_arrow_right</span>
+                    Pacages
+                </a>
+                <a href="#services">
+                    <span class="material-icons-sharp">
+                        keyboard_arrow_right</span>
+                    Service
+                </a>
+                <a href="#pricing">
+                    <span class="material-icons-sharp">
+                        keyboard_arrow_right</span>
+                    Pricing
+                </a>
+                <a href="#review">
+                    <span class="material-icons-sharp">
+                        keyboard_arrow_right</span>
+                    Review
+                </a>
+                <a href="#contact">
+                    <span class="material-icons-sharp">
+                        keyboard_arrow_right</span>
+                    Contact
+                </a>
+            </div>
+
+            <div class="contact-info box">
+                <h3>Contact Info</h3>
+                <p>
+                    <span class="material-icons-sharp">phone_enabled</span> 
+                    +123-456-789
+                </p>
+                <p>
+                    <span class="material-icons-sharp">phone_enabled</span> 
+                    +111-444-777
+                </p>
+                <p>Travel@gmail.com</p>
+                <p>
+                    <span class="material-icons-sharp">location_on</span> 
+                    Paris,France-12345
+                </p>
+            </div>
+            <div class="media box">
+                <h3>Follow Us</h3>
+                <p>
+                    <i class="fa-brands fa-facebook-f"></i> 
+                   Facebook
+                </p>
+                <p>
+                    <i class="fa-brands fa-instagram"></i> 
+                   Instagram
+                </p>
+                <p>
+                    <i class="fa-brands fa-twitter"></i> 
+                   Twitter
+                </p>
+                <p>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                   Linkedin
+                </p>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; Faris Sabic
+        </div>
+    </footer>
+
+
+
+    
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="./main.js"></script>
+</html>
